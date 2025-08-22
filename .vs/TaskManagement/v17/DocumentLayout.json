@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\andrew.tan\\Desktop\\TaskManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E0F37938-3CB6-4C94-BBA7-8F2E4DA8F66C}|TaskManagement.Client\\TaskManagement.Client.csproj|c:\\users\\andrew.tan\\desktop\\taskmanagement\\taskmanagement.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F37938-3CB6-4C94-BBA7-8F2E4DA8F66C}|TaskManagement.Client\\TaskManagement.Client.csproj|solutionrelative:taskmanagement.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{61827A1E-80A8-4C69-A8AF-6F3445E2902E}|TaskManagement.SharedData\\TaskManagement.SharedData.csproj|c:\\users\\andrew.tan\\desktop\\taskmanagement\\taskmanagement.shareddata\\tasksaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61827A1E-80A8-4C69-A8AF-6F3445E2902E}|TaskManagement.SharedData\\TaskManagement.SharedData.csproj|solutionrelative:taskmanagement.shareddata\\tasksaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0F37938-3CB6-4C94-BBA7-8F2E4DA8F66C}|TaskManagement.Client\\TaskManagement.Client.csproj|c:\\users\\andrew.tan\\desktop\\taskmanagement\\taskmanagement.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E0F37938-3CB6-4C94-BBA7-8F2E4DA8F66C}|TaskManagement.Client\\TaskManagement.Client.csproj|solutionrelative:taskmanagement.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0F37938-3CB6-4C94-BBA7-8F2E4DA8F66C}|TaskManagement.Client\\TaskManagement.Client.csproj|c:\\users\\andrew.tan\\desktop\\taskmanagement\\taskmanagement.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0F37938-3CB6-4C94-BBA7-8F2E4DA8F66C}|TaskManagement.Client\\TaskManagement.Client.csproj|solutionrelative:taskmanagement.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61827A1E-80A8-4C69-A8AF-6F3445E2902E}|TaskManagement.SharedData\\TaskManagement.SharedData.csproj|c:\\users\\andrew.tan\\desktop\\taskmanagement\\taskmanagement.shareddata\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,11 +97,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 10,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\TaskManagement\\TaskManagement.Client\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "TaskManagement.Client\\Layout\\MainLayout.razor",
@@ -109,8 +113,7 @@
               "RelativeToolTip": "TaskManagement.Client\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-22T07:02:01.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T07:02:01.269Z"
             },
             {
               "$type": "Document",
@@ -122,8 +125,7 @@
               "RelativeToolTip": "TaskManagement.Server\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-22T07:01:42.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T07:01:42.086Z"
             },
             {
               "$type": "Document",
@@ -135,12 +137,7 @@
               "RelativeToolTip": "TaskManagement.Client\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-22T06:57:00.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-08-22T06:57:00.749Z"
             },
             {
               "$type": "Document",
@@ -152,8 +149,7 @@
               "RelativeToolTip": "TaskManagement.Client\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-22T06:30:49.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T06:30:49.522Z"
             },
             {
               "$type": "Document",
@@ -165,21 +161,19 @@
               "RelativeToolTip": "TaskManagement.Client\\wwwroot\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-22T05:48:06.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T05:48:06.843Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "TaskManagement.Client",
+              "Title": "TaskManagement.Client.csproj",
               "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\TaskManagement\\TaskManagement.Client\\TaskManagement.Client.csproj",
               "RelativeDocumentMoniker": "TaskManagement.Client\\TaskManagement.Client.csproj",
               "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\TaskManagement\\TaskManagement.Client\\TaskManagement.Client.csproj",
               "RelativeToolTip": "TaskManagement.Client\\TaskManagement.Client.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-22T03:24:35.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T03:24:35.278Z"
             },
             {
               "$type": "Document",
@@ -191,8 +185,7 @@
               "RelativeToolTip": "TaskManagement.Server\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-22T03:52:29.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T03:52:29.921Z"
             },
             {
               "$type": "Document",
@@ -204,8 +197,7 @@
               "RelativeToolTip": "TaskManagement.Client\\TaskApi.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAIwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T03:24:38.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T03:24:38.355Z"
             },
             {
               "$type": "Document",
@@ -217,12 +209,11 @@
               "RelativeToolTip": "TaskManagement.Server\\Controllers\\TasksController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T02:08:53.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T02:08:53.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\TaskManagement\\TaskManagement.Client\\Program.cs",
               "RelativeDocumentMoniker": "TaskManagement.Client\\Program.cs",
@@ -243,8 +234,7 @@
               "RelativeToolTip": "TaskManagement.Client\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-22T01:58:27.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T01:58:27.654Z"
             },
             {
               "$type": "Document",
@@ -256,8 +246,7 @@
               "RelativeToolTip": "TaskManagement.Client\\Pages\\TaskManagementView.razor",
               "ViewState": "AgIAAKsAAAAAAAAAAAAAAL0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-22T01:57:20.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T01:57:20.057Z"
             },
             {
               "$type": "Document",
@@ -269,8 +258,7 @@
               "RelativeToolTip": "TaskManagement.Server\\Program.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T01:45:09.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T01:45:09.959Z"
             },
             {
               "$type": "Document",
@@ -282,8 +270,7 @@
               "RelativeToolTip": "TaskManagement.Server\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-22T01:44:26.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T01:44:26.734Z"
             },
             {
               "$type": "Document",
@@ -317,8 +304,7 @@
               "RelativeToolTip": "TaskManagement.SharedData\\TaskManagement.SharedData.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-22T01:05:58.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T01:05:58.059Z"
             },
             {
               "$type": "Document",
@@ -330,18 +316,17 @@
               "RelativeToolTip": "TaskManagement.SharedData\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T00:36:03.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T00:36:03.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TasksAccessLayer.cs",
               "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\TaskManagement\\TaskManagement.SharedData\\TasksAccessLayer.cs",
               "RelativeDocumentMoniker": "TaskManagement.SharedData\\TasksAccessLayer.cs",
               "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\TaskManagement\\TaskManagement.SharedData\\TasksAccessLayer.cs",
               "RelativeToolTip": "TaskManagement.SharedData\\TasksAccessLayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T00:32:21.124Z",
               "EditorCaption": ""
@@ -367,8 +352,7 @@
               "RelativeToolTip": "TaskManagement.SharedData\\Tasks.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T00:20:17.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T00:20:17.463Z"
             },
             {
               "$type": "Document",
