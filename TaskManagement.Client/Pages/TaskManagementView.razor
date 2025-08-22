@@ -1,0 +1,206 @@
+﻿@using TaskManagement.SharedData
+@inject TaskApi Api
+
+<h3>Tasks</h3>
+
+
+<div style="display:flex;gap:8px;align-items:center;margin:8px 0;flex-wrap:wrap">
+    <input @bind="newTaskName" placeholder="Task Name" />
+    <button @onclick="Add">Add</button>
+    @if (!string.IsNullOrWhiteSpace(err))
+    {
+        <span class="err-code">@err</span>
+    }
+</div>
+
+@if (items is null)
+{
+    <div>Loading…</div>
+}
+else if (items.Count == 0)
+{
+    <div>No tasks yet.</div>
+}
+else
+{
+    <ul class="list-style1">
+        @foreach (var t in items)
+        {
+            <li class="list-style2">
+                <div>
+                    <input type="checkbox" checked="@t.IsCompleted" @onchange="() => ToggleComplete(t)" />
+                    <b class="text-style">@t.TaskName</b>
+                    <div class="text-style1">
+                        Task Created: @t.CreatedAt.ToLocalTime().ToString("dd-MMM-yyyy HH:mm")
+                    </div>
+                    <div class="text-style1">
+                        Status: <span class="@(t.IsCompleted ? "status-completed" : "status-pending")">
+                            @(t.IsCompleted ? "Completed" : "Not Done Yet")
+                        </span>
+                    </div>
+
+
+                </div>
+                <div class="button-container-style">
+                    <button @onclick="() => StartEdit(t)" class="button-style1">Edit</button>
+                    <button @onclick="() => Remove(t.Id)" class="button-style2">Delete</button>
+                </div>
+            </li>
+
+            @if (editId == t.Id)
+            {
+                <li class="list-style3">
+                    <input @bind="editTaskName" class="input-style"/>
+                    <button @onclick="SaveEdit">Save</button>
+                    <button @onclick="CancelEdit">Cancel</button>
+                </li>
+            }
+        }
+    </ul>
+}
+
+@code {
+    List<Tasks>? items;    
+    string newTaskName = "";
+    string err = "";
+
+    Guid editId = Guid.Empty;
+    string editTaskName = "";
+
+    protected override async Task OnInitializedAsync() => await Reload();
+
+    async Task Reload() => items = await Api.GetTasks() ?? new();
+
+   
+
+    async Task Add()
+    {
+        err = "";
+        if (string.IsNullOrWhiteSpace(newTaskName)) { err = "title required"; return; }
+        var t = new Tasks { TaskName = newTaskName.Trim(), IsCompleted = false, CreatedAt = DateTime.UtcNow };
+        var (ok, created, error) = await Api.Create(t);
+        if (!ok)
+        {
+            err = error ?? "Could not save task";
+            return;
+        }
+        newTaskName = "";
+        await Reload();
+
+    }
+
+    async Task ToggleComplete(Tasks t)
+    {
+        t.IsCompleted = !t.IsCompleted;
+        await Api.Update(t);
+      
+        await Reload();
+    }
+
+    void StartEdit(Tasks t)
+    {
+        editId = t.Id;
+        editTaskName = t.TaskName ?? "";
+    }
+
+    async Task SaveEdit()
+    {
+        var t = items?.FirstOrDefault(x => x.Id == editId);
+        if (t is null) { CancelEdit(); return; }
+        t.TaskName = (editTaskName ?? "").Trim();
+        await Api.Update(t);
+        CancelEdit();
+        await Reload();
+    }
+
+    void CancelEdit()
+    {
+        editId = Guid.Empty;
+        editTaskName = "";
+    }
+
+    async Task Remove(Guid id)
+    {
+        await Api.Delete(id);
+        await Reload();
+    }
+}
+
+
+<style>
+    .err-code{
+        color:red;
+    }
+    .status-completed {
+        color: green;
+        font-weight: bold;
+    }
+
+    .status-pending {
+        color: red;
+        font-weight: bold;
+    }
+
+    .text-style {
+        margin-left: 8px
+    }
+    .text-style1{
+        color: #888;
+        margin-left: 26px;
+        font-size: 12px
+    }
+    .button-style1{
+        border: 1px solid #999;
+        background: #fff
+
+    }
+    .button-style2{
+        border: 1px solid #f55;
+        color: #f55;
+        background: #fff
+    }
+
+    .list-style1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #ddd;
+        padding: 8px;
+        margin-bottom: 6px
+    }
+    .list-style2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #ddd;
+        padding: 8px;
+        margin-bottom: 6px
+    }
+    .list-style3{
+        border: 1px dashed #bbb;
+        padding: 8px;
+        margin: -4px 0 6px 0
+    }
+    .button-container-style{
+        display: flex;
+        gap: 8px
+    }
+    .input-style{
+        display: flex;
+        gap: 8px
+    }
+</style>
+
+
+
+@* 
+@code {
+
+    private List<Tasks> TasksList = new List<Tasks>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        //TasksList = await TaskAccessLayer.GetAllTasks();
+    }
+
+} *@

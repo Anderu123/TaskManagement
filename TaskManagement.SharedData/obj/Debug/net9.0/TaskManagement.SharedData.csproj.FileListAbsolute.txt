@@ -1,0 +1,26 @@
+C:\Users\andrew.tan\Desktop\Task Management\TaskManagement.SharedData\bin\Debug\net9.0\TaskManagement.SharedData.deps.json
+C:\Users\andrew.tan\Desktop\Task Management\TaskManagement.SharedData\bin\Debug\net9.0\TaskManagement.SharedData.dll
+C:\Users\andrew.tan\Desktop\Task Management\TaskManagement.SharedData\bin\Debug\net9.0\TaskManagement.SharedData.pdb
+C:\Users\andrew.tan\Desktop\Task Management\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.csproj.AssemblyReference.cache
+C:\Users\andrew.tan\Desktop\Task Management\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andrew.tan\Desktop\Task Management\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.AssemblyInfoInputs.cache
+C:\Users\andrew.tan\Desktop\Task Management\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.AssemblyInfo.cs
+C:\Users\andrew.tan\Desktop\Task Management\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.csproj.CoreCompileInputs.cache
+C:\Users\andrew.tan\Desktop\Task Management\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.dll
+C:\Users\andrew.tan\Desktop\Task Management\TaskManagement.SharedData\obj\Debug\net9.0\refint\TaskManagement.SharedData.dll
+C:\Users\andrew.tan\Desktop\Task Management\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.pdb
+C:\Users\andrew.tan\Desktop\Task Management\TaskManagement.SharedData\obj\Debug\net9.0\ref\TaskManagement.SharedData.dll
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\bin\Debug\net9.0\TaskManagement.SharedData.deps.json
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\bin\Debug\net9.0\TaskManagement.SharedData.runtimeconfig.json
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\bin\Debug\net9.0\TaskManagement.SharedData.dll
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\bin\Debug\net9.0\TaskManagement.SharedData.pdb
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.csproj.AssemblyReference.cache
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.AssemblyInfoInputs.cache
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.AssemblyInfo.cs
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.csproj.CoreCompileInputs.cache
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.dll
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\obj\Debug\net9.0\refint\TaskManagement.SharedData.dll
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.pdb
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\obj\Debug\net9.0\TaskManagement.SharedData.genruntimeconfig.cache
+C:\Users\andrew.tan\Desktop\TaskManagement\TaskManagement.SharedData\obj\Debug\net9.0\ref\TaskManagement.SharedData.dll
