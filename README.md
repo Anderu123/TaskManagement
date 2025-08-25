@@ -1,6 +1,6 @@
 # Task Management App (.NET 9 + Blazor WASM)
 
-A simple task manager built with **.NET 9.0**, **Blazor WebAssembly**, and **ASP.NET Core Web API** using **EF Core + SQLite**.  
+A basic task manager built with **.NET 9.0**, **Blazor WebAssembly**, and **ASP.NET Core Web API** using **EF Core + SQLite**.  
 
 ## Features
 - Add, edit, delete tasks
